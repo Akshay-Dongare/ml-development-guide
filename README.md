@@ -46,6 +46,7 @@ This is a general guide about package installation and system setup
 * In the new window in Remote VS code, install python extension to get all the vs code features like autocomplete, refactor and peek defination
 * `docker-compose.yml` file allows to specify services and to run our container using a single simple command: `docker-compose up`
 * If you change something in `requirements.txt`, for example you added a python module dependancy for the new service you added in `docker-compose.yml` so that you can use that service in your python code; you must build the docker image again like so: `docker-compose up --build -d` (d is for detached mode)
+* To setup debugging, add debugpy module to python dependancies `requirements.txt`, then in `docker-compose.yml` file, under `ports:` map the 5678 port to 5678 (on local machine). Now in the Remote Docker container attached VS Code window, go to debugger and select `attach to remote debug server`, now enter `localhot` and port `5678`  
 * Source: https://www.youtube.com/watch?v=6OxqiEeCvMI&t=108s&ab_channel=Docker
 
 # TensorFlow Setup
