@@ -39,7 +39,10 @@ This is a general guide about package installation and system setup
 * C:\tools\cudnn-windows-x86_64-8.3.1.22_cuda11.5-archive\include
 * C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\bin
 
-
+# Docker Setup 
+* Use Docker Volumes (docker run -v) to map current working dir to container dir to get real time updates in the container
+* VS code extensions: Dev Containers (by Microsoft), Docker
+* Source: https://www.youtube.com/watch?v=6OxqiEeCvMI&t=108s&ab_channel=Docker
 
 # TensorFlow Setup
 # PyTorch Setup
