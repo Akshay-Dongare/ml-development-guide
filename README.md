@@ -39,7 +39,7 @@ This is a general guide about package installation and system setup
 * C:\tools\cudnn-windows-x86_64-8.3.1.22_cuda11.5-archive\include
 * C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\bin
 
-# Docker Setup 
+# Docker For Isolated Local Python Development Environment  Setup 
 * Use Docker Volumes (docker run -v) to map current working dir to container dir to get real time updates in the container
 * Install VS code extensions: Dev Containers (by Microsoft), Docker
 * Then from vs code, connect remote to running docker container
