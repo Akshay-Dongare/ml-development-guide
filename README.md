@@ -41,7 +41,9 @@ This is a general guide about package installation and system setup
 
 # Docker Setup 
 * Use Docker Volumes (docker run -v) to map current working dir to container dir to get real time updates in the container
-* VS code extensions: Dev Containers (by Microsoft), Docker
+* Install VS code extensions: Dev Containers (by Microsoft), Docker
+* Then from vs code, connect remote to running docker container
+* In the new window in Remote VS code, install python extension to get all the vs code features like autocomplete, refactor and peek defination
 * Source: https://www.youtube.com/watch?v=6OxqiEeCvMI&t=108s&ab_channel=Docker
 
 # TensorFlow Setup
