@@ -41,7 +41,7 @@ This is a general guide about package installation and system setup
 
 # Docker For Isolated Local Python Development Environment  Setup 
 * Use Docker Volumes (docker run -v) to map current working dir to container dir to get real time updates in the container
-* Install VS code extensions: Dev Containers (by Microsoft), Docker
+* Install VS code extensions: Dev Containers (by Microsoft), Docker, Remote Development (an extension pack by Microsoft)
 * Then from vs code, connect remote to running docker container
 * In the new window in Remote VS code, install python extension to get all the vs code features like autocomplete, refactor and peek defination
 * `docker-compose.yml` file allows to specify services and to run our container using a single simple command: `docker-compose up`
