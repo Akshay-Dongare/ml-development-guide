@@ -44,7 +44,7 @@ This is a general guide about package installation and system setup
 * Install VS code extensions: Dev Containers (by Microsoft), Docker
 * Then from vs code, connect remote to running docker container
 * In the new window in Remote VS code, install python extension to get all the vs code features like autocomplete, refactor and peek defination
-* `docker-compose.yml` file allows to specify services and to run our container using a single simple command
+* `docker-compose.yml` file allows to specify services and to run our container using a single simple command: `docker-compose up`
 * Source: https://www.youtube.com/watch?v=6OxqiEeCvMI&t=108s&ab_channel=Docker
 
 # TensorFlow Setup
