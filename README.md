@@ -66,3 +66,8 @@ This is a general guide about package installation and system setup
 
 ## Setting Conda Environment as Jupyter Kernal
 
+## Github CLI
+1. https://cli.github.com/
+### Github CoPilot in Github CLI
+1. Source: https://docs.github.com/en/copilot/github-copilot-in-the-cli/using-github-copilot-in-the-cli
+2. https://www.youtube.com/watch?v=P8MfgV9us4o&ab_channel=BeyondFireship
