@@ -56,7 +56,8 @@ This is a general guide about package installation and system setup
 # TensorFlow Setup
 # PyTorch Setup
 1. Go to this site and copy paste the download command according to your configuration into your desired Conda env : https://pytorch.org/get-started/locally/
-2. 
+2. You can use Pip or Conda to install Pytorch. Both binaries ship with their CUDA dependencies and allow you to execute PyTorch code directly without installing a full CUDA toolkit locally. You would only need to install the NVIDIA drivers.
+3. Check the Cuda Compatibility Table mentioned above in `Cuda Toolkit` to match the Cuda Toolkit binary you install from Pytorch to your installed NVIDIA Driver version
 # Jupyter Setup
 ## Jupyter Notebook
 ### Installation
