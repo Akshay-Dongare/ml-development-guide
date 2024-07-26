@@ -55,7 +55,8 @@ This is a general guide about package installation and system setup
 
 # TensorFlow Setup
 # PyTorch Setup
-
+1. Go to this site and copy paste the download command according to your configuration into your desired Conda env : https://pytorch.org/get-started/locally/
+2. 
 # Jupyter Setup
 ## Jupyter Notebook
 ### Installation
