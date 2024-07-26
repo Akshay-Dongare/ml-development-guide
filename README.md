@@ -11,9 +11,9 @@ This is a general guide about package installation and system setup
 * Open Windows Terminal Settings and select this as the Default Shell
 ## Miniconda
 * Use miniconda to manage virtual environments for projects
-* Check your system's configuration (ie, x86, 64 bit or ARM)
+* Check your system's configuration (ie, x86 aka 32 bit, 64 bit or ARM)
 * Download the appropriate installer from https://docs.anaconda.com/free/miniconda/
-* Run the installer and install miniconda at your preffered path
+* Run the installer and install miniconda at your preffered path. If username has spaces in between, install it in a new folder in C drive (example: C:\AkshayTools) or else some third party packages might cause issue later.
 * Create new environment with latest python: `conda create -n llm python`
 * Activate the new environment: `conda activate llm`
 
@@ -30,7 +30,11 @@ This is a general guide about package installation and system setup
 
 # NVIDIA GPU Setup
 ## Drivers
+1. Download GeForce Experience App from https://www.nvidia.com/en-in/geforce/geforce-experience/
+2. Open it and Choose Studio Driver as it will be more stable than Game Ready Driver which is for latest releases
+3. Check for updates and download latest Studio Driver 
 ## CUDA Toolkit
+1. Check this site for compatibility table of Cuda Toolkit version and NVIDIA Driver Version : https://docs.nvidia.com/deploy/cuda-compatibility/index.html#binary-compatibility__table-toolkit-driver
 ## CUDNN
 ## Paths
 * C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\extras\CUPTI\lib64
