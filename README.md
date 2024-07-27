@@ -13,10 +13,13 @@ This is a general guide about package installation and system setup
 * Use miniconda to manage virtual environments for projects
 * Check your system's configuration (ie, x86 aka 32 bit, 64 bit or ARM)
 * Download the appropriate installer from https://docs.anaconda.com/free/miniconda/
-* Run the installer and install miniconda at your preffered path. If username has spaces in between, install it in a new folder in C drive (example: C:\AkshayTools) or else some third party packages might cause issue later.
+* Run the installer and install miniconda at your preffered path. If username has spaces in between, install it in a new folder in another new folder in C drive (example: C:\AkshayTools\Miniconda3) or else some third party packages might cause issue later.
 * Create new environment with latest python: `conda create -n llm python`
 * Activate the new environment: `conda activate llm`
-
+## Git
+* Download latest from https://git-scm.com/download/win
+* Install in new folder in C drive (C:\AkshayTools)
+* Choose whichever options you feel right during install 
 ## Microsoft Build Tools
 * You can potentially need this in the future while developing ML applications and installing packages
 * To prevent future errors like this one: https://github.com/Akshay-Dongare/Error-Cpp-Build-Tools
@@ -79,3 +82,6 @@ This is a general guide about package installation and system setup
 ### Github CoPilot in Github CLI
 1. Source: https://docs.github.com/en/copilot/github-copilot-in-the-cli/using-github-copilot-in-the-cli
 2. https://www.youtube.com/watch?v=P8MfgV9us4o&ab_channel=BeyondFireship
+## Bitwarden Password Manager
+1. Download from Microsoft Play Store
+2. Published by 8Bit Solutions
