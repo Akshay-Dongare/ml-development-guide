@@ -19,7 +19,8 @@ This is a general guide about package installation and system setup
 ## Git
 * Download latest from https://git-scm.com/download/win
 * Install in new folder in C drive (C:\AkshayTools)
-* Choose whichever options you feel right during install 
+* Choose whichever options you feel right during install
+* Suggestions: Choose Visual Studio Code as the default editor for Git, Override Default branch name with `main` to avoid using derogatory master-slave terminology (Even github has ported to this convention recently)
 ## Microsoft Build Tools
 * You can potentially need this in the future while developing ML applications and installing packages
 * To prevent future errors like this one: https://github.com/Akshay-Dongare/Error-Cpp-Build-Tools
