@@ -28,6 +28,8 @@ This is a general guide about package installation and system setup
 5. RESTART your computer.
 * Source: https://learn.microsoft.com/en-us/answers/questions/136595/error-microsoft-visual-c-14-0-or-greater-is-requir
 
+* Install the Latest Microsoft Visual C++ Redistributable Version (2022) from https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
+
 # NVIDIA GPU Setup
 ## Drivers
 1. Download GeForce Experience App from https://www.nvidia.com/en-in/geforce/geforce-experience/
