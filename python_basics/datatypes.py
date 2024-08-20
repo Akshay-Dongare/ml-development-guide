@@ -55,8 +55,7 @@ print(eg)
 eg = {'name':'John','age':25}
 print(eg.values())
 print(eg.keys())
-
-
+print(eg['name'])
 
 
 
